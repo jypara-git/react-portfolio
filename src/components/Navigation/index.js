@@ -4,8 +4,8 @@ function Navigation() {
     return (
         <header>
             <h1>Zhypara Abdieva</h1>
-            <nav className="nav-bar">
-                <ul>
+            <nav>
+                <ul className="navlist">
                     <li>
                         <a href="#about" >
                             About me
