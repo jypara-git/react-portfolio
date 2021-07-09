@@ -4,7 +4,7 @@ import ProjectList from '../ProjectList';
 
 function Project(props) {
     return (
-        <section className="project box">
+        <div className="project box">
             <h2>{props.name}</h2>
             <a href={props.liveUrl} target="_blank">
                 <h3>Live Url</h3>
@@ -14,7 +14,7 @@ function Project(props) {
                 <img src={props.image} className="image" />
                 </a>
             </div>
-        </section>
+        </div>
     )
 }
 

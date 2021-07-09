@@ -7,18 +7,23 @@ function Navigation() {
             <nav>
                 <ul className="navlist">
                     <li>
-                        <a href="#about" >
+                        <a href="about" >
                             About me
                         </a>
                     </li>
                     <li>
-                        <a href="#projects" >
+                        <a href="projects" >
                             Projects
                         </a>
                     </li>
                     <li>
-                        <a href="#contact">
+                        <a href="contact">
                             Contact me
+                        </a>
+                    </li>
+                    <li>
+                        <a href="resume">
+                            Resume
                         </a>
                     </li>
                 </ul>

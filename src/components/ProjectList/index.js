@@ -3,11 +3,11 @@ import Project from '../Project';
 const ProjectList = (props) => {
     const [projects] = useState([
         {
-            name: 'Budget Tracker',
-            image: '/assets/images/budget-tracker.png',
-            description: 'The budget tracking application where the user is able to add expenses and deposits to their budget with or without a connection.',
-            github: 'https://github.com/jypara-git/budget-tracker',
-            liveUrl: 'https://vast-lowlands-64740.herokuapp.com/'
+            name: 'Monstera',
+            image: '/assets/images/monstera.png',
+            description: 'The application to prevent domestic violence, where the user is able create a profile, add friends, and in emergency situations send their location.',
+            github: 'https://github.com/down-dive/monstera',
+            liveUrl: 'https://monstera2.herokuapp.com/signin'
         },
         {
             name: 'Password generator',
@@ -48,7 +48,7 @@ const ProjectList = (props) => {
 
 
     return (
-        <div>
+        <div style={{display: 'flex', flexDirection: 'row', flexWrap: 'wrap'}}>
             {projects.map((project, i) => {
                 return (
                     <Project name={project.name} image={project.image} description={project.description} github={project.github} liveUrl={project.liveUrl} />
